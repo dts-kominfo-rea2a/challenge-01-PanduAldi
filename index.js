@@ -2,12 +2,47 @@
 // Tentukan tipe data dan struktur data yang menurut kalian tepat
 // Kalian bisa membuat variabel lain untuk dimasukkan ke dalam atribut user agar lebih mudah dibaca
 
-/** todo Monica property */
-const arrColorMonica = ["Yellow", "Pink", "White", "Purple"];
-const arrRestoMonica = ["Bento", "Sushi", "Pancake", "Eggy", "Tempura", "Bento", "Eggy", "Padang", "Tteok", "Sushi", "Sushi"];
+/** Color data */
+const yellow = "Yellow";
+const pink = "Pink";
+const white = "White";
+const purple = "Purple";
+const blue = "Blue";
+const black = "Black";
+const grey = "Grey";
 
-let setColorMonica = new Set(arrColorMonica);
-let setRestoMonica = new Set(arrRestoMonica);
+/** Resto data */
+const bento = "Bento";
+const sushi = "Sushi";
+const pancake = "Pancake";
+const eggy = "Eggy";
+const tempura = "Tempura";
+const padang = "Padang";
+const tteok = "Tteok";
+const katsu = "Katsu";
+const geprek = "Geprek";
+
+/** todo Monica property */
+let setColorMonica = new Set();
+setColorMonica.add(yellow);
+setColorMonica.add(pink);
+setColorMonica.add(white);
+setColorMonica.add(purple);
+
+
+let setRestoMonica = new Set();
+setRestoMonica.add(bento);
+setRestoMonica.add(sushi);
+setRestoMonica.add(pancake);
+setRestoMonica.add(eggy);
+setRestoMonica.add(tempura);
+setRestoMonica.add(bento);
+setRestoMonica.add(eggy);
+setRestoMonica.add(padang);
+setRestoMonica.add(tteok);
+setRestoMonica.add(sushi);
+setRestoMonica.add(sushi);
+
  
 const educationMonica = [
     { name: "SD 01", city: "Jakarta", graduate: "2016" },
@@ -19,8 +54,23 @@ const educationMonica = [
 const arrColorWendy = ["Blue", "Black", "Grey"];
 const arrRestoWendy = ["Tempura", "Bento", "Sushi", "Pancake", "Padang", "Katsu", "Geprek", "Pancake", "Eggy"]; 
 
-let setColorWendy = new Set(arrColorWendy);
-let setRestoWendy = new Set(arrRestoWendy);
+let setColorWendy = new Set();
+setColorWendy.add(blue);
+setColorWendy.add(black);
+setColorWendy.add(grey);
+
+
+let setRestoWendy = new Set();
+setRestoWendy.add(tempura);
+setRestoWendy.add(bento);
+setRestoWendy.add(sushi);
+setRestoWendy.add(pancake);
+setRestoWendy.add(padang);
+setRestoWendy.add(katsu);
+setRestoWendy.add(geprek);
+setRestoWendy.add(pancake);
+setRestoWendy.add(eggy);
+
 
 const educationWendy = [
     { name: "SD 02", city: "Jakarta", graduate: "2010" },
@@ -37,10 +87,10 @@ const firstUser = {
     gender: "Female",
     age: 17,
     email: "monica@dingdong.com",
-    favoriteColor: setColorMonica.values(),
+    favoriteColor: setColorMonica,
     isHavePet: "Yes",
     education: educationMonica,
-    favoriteRestaurant: setRestoMonica.values()
+    favoriteRestaurant: setRestoMonica
 };
 
 const secondUser = {
