@@ -23,25 +23,28 @@ const katsu = "Katsu";
 const geprek = "Geprek";
 
 /** todo Monica property */
-let setColorMonica = new Set();
-setColorMonica.add(yellow);
-setColorMonica.add(pink);
-setColorMonica.add(white);
-setColorMonica.add(purple);
+const arrColorMonica = ["Yellow", "Pink", "White", "Purple"];
+const arrRestoMonica = ["Bento", "Sushi", "Pancake", "Eggy", "Tempura", "Bento", "Eggy", "Padang", "Tteok", "Sushi", "Sushi"]; 
+
+let setColorMonica = new Set(arrColorMonica);
+// setColorMonica.add(yellow);
+// setColorMonica.add(pink);
+// setColorMonica.add(white);
+// setColorMonica.add(purple);
 
 
-let setRestoMonica = new Set();
-setRestoMonica.add(bento);
-setRestoMonica.add(sushi);
-setRestoMonica.add(pancake);
-setRestoMonica.add(eggy);
-setRestoMonica.add(tempura);
-setRestoMonica.add(bento);
-setRestoMonica.add(eggy);
-setRestoMonica.add(padang);
-setRestoMonica.add(tteok);
-setRestoMonica.add(sushi);
-setRestoMonica.add(sushi);
+let setRestoMonica = new Set(arrRestoMonica);
+// setRestoMonica.add(bento);
+// setRestoMonica.add(sushi);
+// setRestoMonica.add(pancake);
+// setRestoMonica.add(eggy);
+// setRestoMonica.add(tempura);
+// setRestoMonica.add(bento);
+// setRestoMonica.add(eggy);
+// setRestoMonica.add(padang);
+// setRestoMonica.add(tteok);
+// setRestoMonica.add(sushi);
+// setRestoMonica.add(sushi);
 
  
 const educationMonica = [
@@ -54,22 +57,22 @@ const educationMonica = [
 const arrColorWendy = ["Blue", "Black", "Grey"];
 const arrRestoWendy = ["Tempura", "Bento", "Sushi", "Pancake", "Padang", "Katsu", "Geprek", "Pancake", "Eggy"]; 
 
-let setColorWendy = new Set();
-setColorWendy.add(blue);
-setColorWendy.add(black);
-setColorWendy.add(grey);
+let setColorWendy = new Set(arrColorWendy);
+// setColorWendy.add(blue);
+// setColorWendy.add(black);
+// setColorWendy.add(grey);
 
 
-let setRestoWendy = new Set();
-setRestoWendy.add(tempura);
-setRestoWendy.add(bento);
-setRestoWendy.add(sushi);
-setRestoWendy.add(pancake);
-setRestoWendy.add(padang);
-setRestoWendy.add(katsu);
-setRestoWendy.add(geprek);
-setRestoWendy.add(pancake);
-setRestoWendy.add(eggy);
+let setRestoWendy = new Set(arrRestoWendy);
+// setRestoWendy.add(tempura);
+// setRestoWendy.add(bento);
+// setRestoWendy.add(sushi);
+// setRestoWendy.add(pancake);
+// setRestoWendy.add(padang);
+// setRestoWendy.add(katsu);
+// setRestoWendy.add(geprek);
+// setRestoWendy.add(pancake);
+// setRestoWendy.add(eggy);
 
 
 const educationWendy = [
